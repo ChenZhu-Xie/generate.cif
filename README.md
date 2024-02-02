@@ -4,7 +4,8 @@
 
 <!-- ## Description -->
 ## About
-Generate hologram (e.g. PPLN) → .cif file
+* Generate hologram (e.g. PPLN) → .cif file
+    * Mainly maintained during 2021.08 - 2022.11
 
 ## Inplementation
 1. Run any .py file that does not start with "fun" to see the effect.
