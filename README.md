@@ -2,14 +2,21 @@
 
 # Generate ".cif" file (for L-edit)
 
-<!-- ## Description -->
-## About
+<!-- ## About -->
+## Description
 * Generate hologram (e.g. PPLN) → .cif file
-    * Mainly maintained during 2021.08 - 2022.11
+
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover2.png)
 
 ## Inplementation
 1. Run any .py file that does not start with "fun" to see the effect.
 2. The approximate order of the call chain is .py files starting with "d <-- c <-- b <-- a <-- fun".
+
+## History
+* This repo (generate.cif) was mainly maintained during
+    * 2021.08 - 2022.11
+    * summer vacation in the second semester - the fifth semester (of postgraduate studies)
+    * the (0.9 - 2.2) / 5.0 year of PhD Program
 
 <!-- ## Software Architecture
 Software architecture description
