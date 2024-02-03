@@ -1,4 +1,4 @@
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover1.png)
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover1.png "Generate a single『1D PPLN』at the wafer level")
 
 # 生成 ".cif" 文件 (再用 L-edit 打开)
 
@@ -6,7 +6,7 @@
 ## 介绍
 * 生成 全息图 (PPLN 等) → .cif 文件
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover2.png)
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover2.png "Generate 12 different『1D & 2D PPLN arrays』at the wafer level")
 
 ## 实施
 1. 运行任何一个不以 "fun" 开头的 .py 文件，即可查看效果。
