@@ -1,4 +1,4 @@
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover1.png "生成 晶圆级 单个『1 维 PPLN』的 .cif 文件")
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover1.png "Generate a single『1D PPLN』at the wafer level")
 
 # Generate ".cif" file (for L-edit)
 
@@ -6,7 +6,7 @@
 ## Description
 * Generate hologram (e.g. PPLN) → .cif file
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover2.png "直接生成 晶圆级『12 个不同的 1、2 维 PPLN 阵列』的 .cif 文件")
+![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover2.png "Generate 12 different『1D & 2D PPLN arrays』at the wafer level")
 
 ## Inplementation
 1. Run any .py file that does not start with "fun" to see the effect.
