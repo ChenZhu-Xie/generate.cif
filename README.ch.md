@@ -1,4 +1,5 @@
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover1.png "生成 晶圆级 单个『1 维 PPLN』的 .cif 文件")
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover1.png "生成 晶圆级 单个『1 维 PPLN』的 .cif 文件") -->
+![fig](https://gitee.com/ChenZhu-Xie/generate.cif/raw/master/img/cover1.png "生成 晶圆级 单个『1 维 PPLN』的 .cif 文件")
 
 # 生成 ".cif" 文件 (再用 L-edit 打开)
 
