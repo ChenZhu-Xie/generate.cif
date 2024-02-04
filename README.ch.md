@@ -7,7 +7,8 @@
 ## 介绍
 * 生成 全息图 (PPLN 等) → .cif 文件
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover2.png "直接生成 晶圆级『12 个不同的 1、2 维 PPLN 阵列』的 .cif 文件")
+<!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover2.png "直接生成 晶圆级『12 个不同的 1、2 维 PPLN 阵列』的 .cif 文件") -->
+![fig](https://gitee.com/ChenZhu-Xie/generate.cif/raw/master/img/cover2.png "生成 晶圆级 单个『1 维 PPLN』的 .cif 文件")
 
 ## 实施
 1. 运行任何一个不以 "fun" 开头的 .py 文件，即可查看效果。
