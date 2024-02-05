@@ -3,9 +3,18 @@
 
 # 生成 ".cif" 文件 (再用 L-edit 打开)
 
-<!-- ## 关于 -->
+## 关于
+* 该项目 👉 [generate.cif](https://gitee.com/ChenZhu-Xie/generate.cif) 服务于
+    * 自动、自定义、批量 设计电极图案
+    * 将图案 “翻译为” 坐标点，并生成 .cif
+    * 最终用于 在材料表面 光刻
+
 ## 介绍
 * 生成 全息图 (PPLN 等) → .cif 文件
+    * 可在一片 3 英寸晶圆上 批量定制 12 块 1D,2D PPLN
+    * 自定义：其中，每一块 PPLN 都可单独 定制其图案
+    * 多线程：加速（边缘提取、绘图 和 .cif 生成过程）
+    * 全自动：只需输入 关键参数 如 量子数 l、像素数 size 等
 
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover2.png "直接生成 晶圆级『12 个不同的 1、2 维 PPLN 阵列』的 .cif 文件") -->
 ![fig](https://gitee.com/ChenZhu-Xie/generate.cif/raw/master/img/cover2.png "生成 晶圆级 单个『1 维 PPLN』的 .cif 文件")
@@ -15,10 +24,11 @@
 2. 调用链 大致顺序 为以 "d <-- c <-- b <-- a <-- fun" 开头的 .py 文件。
 
 ## 历史
-* 该项目 generate.cif 主要维护于
-    * 2021.08 - 2022.11
-    * 研一下学期 暑假 —— 研三/博一 上学期
-    * 直博生涯 的 第 (0.9 - 2.2) / 5.0 年
+* 该项目 👉 [generate.cif](https://gitee.com/ChenZhu-Xie/generate.cif) 主要维护于
+    * （世界时间）2021.08 - 2022.11
+    * （个人阶段）研一下学期 暑假 —— 研三/博一 上学期
+    * （个人阶段）直博生涯 的 第 (0.9 - 2.2) / 5.0 年
+    * （个人时间）23 岁 4 月 - 24 岁 7 月
 
 <!-- ## 软件架构
 软件架构说明

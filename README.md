@@ -2,9 +2,18 @@
 
 # Generate ".cif" file (for L-edit)
 
-<!-- ## About -->
+## About
+* This repo 👉 [generate.cif](https://github.com/ChenZhu-Xie/generate.cif) serves for
+    * Automatic, custom, batch designs of electrode patterns
+    * Translate the pattern into coordinate points and generate .cif
+    * eventually for photolithography on material surfaces
+
 ## Description
 * Generate hologram (e.g. PPLN) → .cif file
+    * Up to 12 pieces of 1D,2D PPLN can be customized on a 3-inch wafer
+    * Customization: Each PPLN can be individually customized with its own pattern
+    * Multi-thread: Accelerating (edge extraction, drawing, and .cif generation processes)
+    * Automation: Just input key parameters such as quantum number $l$, number of pixels, etc.
 
 ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover2.png "Generate 12 different『1D & 2D PPLN arrays』at the wafer level")
 
@@ -13,10 +22,11 @@
 2. The approximate order of the call chain is .py files starting with "d <-- c <-- b <-- a <-- fun".
 
 ## History
-* This repo (generate.cif) was mainly maintained during
-    * 2021.08 - 2022.11
-    * summer vacation in the second semester - the fifth semester (of postgraduate studies)
-    * the (0.9 - 2.2) / 5.0 year of PhD Program
+* This repo 👉 [generate.cif](https://github.com/ChenZhu-Xie/generate.cif) was mainly maintained during
+    * (World time) 2021.08 - 2022.11
+    * (Personal stage) summer vacation in the second semester - the fifth semester (of postgraduate studies)
+    * (Personal stage) the (0.9 - 2.2) / 5.0 year of PhD Program
+    * (Personal time) 23 years & 4 months - 24 years & 7 months
 
 <!-- ## Software Architecture
 Software architecture description

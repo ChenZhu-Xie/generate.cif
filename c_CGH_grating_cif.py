@@ -48,18 +48,18 @@ def CGH_grating_cif(l=1, structure_xy_mode="x",
 
 if __name__ == '__main__':
     kwargs = \
-        {"l": 0, "structure_xy_mode": 'xy',
-         "m_x": 1, "T_x": 6, "Duty_Cycle_x": 0.5,
-         "m_y": 1, "T_y": 6, "Duty_Cycle_y": 0.5,
+        {"l": 1, "structure_xy_mode": 'y',
+         "m_x": 1, "T_x": 60, "Duty_Cycle_x": 0.5,
+         "m_y": 1, "T_y": 60, "Duty_Cycle_y": 0.5,
          # %%
          "size_PerCIF_Unit": 1 / 2000,
-         "size_pattern": 300, "size_PerPixel": 1,
-         "size_pattern_y": 1000,  # size_pattern / size_PerPixel = 65536 = 2 ^ 16 是上限
+         "size_pattern": 500, "size_PerPixel": 1,
+         "size_pattern_y": 500,  # size_pattern / size_PerPixel = 65536 = 2 ^ 16 是上限
          # %%
          "is_transverse": 1, "is_positive": 1, "is_transparent": 1,
          "is_reverse": 1,
          # %%
-         "is_plot": 0,
+         "is_plot": 1,
          # %%
          "kwargs_seq": 0, "root_dir": r'1',
          "is_remove_root_dir": 1,
