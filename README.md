@@ -4,18 +4,22 @@
 
 ## About
 * This repo 👉 [generate.cif](https://github.com/ChenZhu-Xie/generate.cif) serves for
-    * Automatic, custom, batch designs of electrode patterns
+    * Automatic, Batch, Custom designs of electrode patterns
     * Translate the pattern into coordinate points and generate .cif
     * eventually for photolithography on material surfaces
 
 ## Description
-* Generate hologram (e.g. PPLN) → .cif file
-    * Up to 12 pieces of 1D,2D PPLN can be customized on a 3-inch wafer
+* Usage: Generate hologram (e.g. PPLN) → .cif file
+* Features: Automation, Batch, Customization, and Multi-thread
+    * Automation: Just input key parameters such as quantum number $l$, number of pixels, etc.
+    * Batch: 12 different 1D,2D PPLNs can be orderly integrated on a wafer
     * Customization: Each PPLN can be individually customized with its own pattern
     * Multi-thread: Accelerating (edge extraction, drawing, and .cif generation processes)
-    * Automation: Just input key parameters such as quantum number $l$, number of pixels, etc.
 
-![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover2.png "Generate 12 different『1D & 2D PPLN arrays』at the wafer level")
+* Extract the closed curves of the positive/negative domain edges of irregular holograms separately, and provide the clockwise/counterclockwise sequential coordinates of the connected closed curves
+    * ![fig](https://github.com/ChenZhu-Xie/generate.cif/raw/master/img/l=1.png "Extract closed curve arrays corresponding to polygon arrays")
+* Up to 12 pieces of 1D,2D PPLNs can be customized on a 3-inch wafer
+    * ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover2.png "Generate 12 different『1D & 2D PPLN arrays』at the wafer level")
 
 ## Inplementation
 1. Run any .py file that does not start with "fun" to see the effect.

@@ -5,19 +5,23 @@
 
 ## 关于
 * 该项目 👉 [generate.cif](https://gitee.com/ChenZhu-Xie/generate.cif) 服务于
-    * 自动、自定义、批量 设计电极图案
+    * 全自动、批量化、自定义 设计电极图案
     * 将图案 “翻译为” 坐标点，并生成 .cif
     * 最终用于 在材料表面 光刻
 
 ## 介绍
-* 生成 全息图 (PPLN 等) → .cif 文件
-    * 可在一片 3 英寸晶圆上 批量定制 12 块 1D,2D PPLN
+* 用途：生成 全息图 (PPLN 等) → .cif 文件
+* 特点：全自动、批量化、自定义、多线程
+    * 全自动：只需输入 关键参数 如 量子数 l、像素数 size 等
+    * 批量化：可在一片 晶圆上 订制化集成 12 块 不同的 1D,2D PPLN
     * 自定义：其中，每一块 PPLN 都可单独 定制其图案
     * 多线程：加速（边缘提取、绘图 和 .cif 生成过程）
-    * 全自动：只需输入 关键参数 如 量子数 l、像素数 size 等
-
+    
+* 单独提取 非规则全息图 正/负畴边沿 封闭曲线，并给出 连成封闭曲线 的 正/逆时针顺序坐标
+    * ![fig](https://gitee.com/ChenZhu-Xie/generate.cif/raw/master/img/l=1.png "提取 多边形阵列 对应的 封闭曲线阵列")
+* 在一片 3 英寸晶圆上 批量定制 12 块 1D,2D PPLN
+    * ![fig](https://gitee.com/ChenZhu-Xie/generate.cif/raw/master/img/cover2.png "直接生成 晶圆级『12 个不同的 1、2 维 PPLN 阵列』的 .cif 文件")
 <!-- ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover2.png "直接生成 晶圆级『12 个不同的 1、2 维 PPLN 阵列』的 .cif 文件") -->
-![fig](https://gitee.com/ChenZhu-Xie/generate.cif/raw/master/img/cover2.png "生成 晶圆级 单个『1 维 PPLN』的 .cif 文件")
 
 ## 实施
 1. 运行任何一个不以 "fun" 开头的 .py 文件，即可查看效果。
