@@ -3,7 +3,7 @@
 # Generate ".cif" file (for L-edit)
 
 ## About
-* This repo 👉 [generate.cif](https://github.com/ChenZhu-Xie/generate.cif) serves for
+* This project 👉 [generate.cif](https://github.com/ChenZhu-Xie/generate.cif) serves for
     * Automatic, Batch, Custom designs of electrode patterns
     * Translate the pattern into coordinate points and generate .cif
     * eventually for photolithography on material surfaces
@@ -26,7 +26,7 @@
 2. The approximate order of the call chain is .py files starting with "d <-- c <-- b <-- a <-- fun".
 
 ## History
-* This repo 👉 [generate.cif](https://github.com/ChenZhu-Xie/generate.cif) was mainly maintained during
+* This project 👉 [generate.cif](https://github.com/ChenZhu-Xie/generate.cif) was mainly maintained during
     * (World time) 2021.08 - 2022.11
     * (Personal stage) summer vacation in the second semester - the fifth semester (of postgraduate studies)
     * (Personal stage) the (0.9 - 2.2) / 5.0 year of PhD Program
