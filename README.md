@@ -18,7 +18,7 @@
 
 * Extract the closed curves of the positive/negative domain edges of irregular holograms separately, and provide the clockwise/counterclockwise sequential coordinates of the connected closed curves
     * ![fig](https://github.com/ChenZhu-Xie/generate.cif/raw/master/img/l=1.png "Extract closed curve arrays corresponding to polygon arrays")
-* Up to 12 pieces of 1D,2D PPLNs can be customized on a 3-inch wafer
+* More than 12 pieces of 1D,2D PPLNs can be customized on a 3-inch wafer
     * ![fig](https://raw.githubusercontent.com/ChenZhu-Xie/generate.cif/master/img/cover2.png "Generate 12 different『1D & 2D PPLN arrays』at the wafer level")
 
 ## Inplementation

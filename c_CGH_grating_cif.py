@@ -50,7 +50,7 @@ if __name__ == '__main__':
     kwargs = \
         {"l": 1, "structure_xy_mode": 'y',
          "m_x": 1, "T_x": 60, "Duty_Cycle_x": 0.5,
-         "m_y": 1, "T_y": 60, "Duty_Cycle_y": 0.5,
+         "m_y": 1, "T_y": 60, "Duty_Cycle_y": 0.983,
          # %%
          "size_PerCIF_Unit": 1 / 2000,
          "size_pattern": 500, "size_PerPixel": 1,
