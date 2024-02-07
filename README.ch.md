@@ -17,7 +17,7 @@
     * 自定义：其中，每一块 PPLN 都可单独 定制其图案
     * 多线程：加速（边缘提取、绘图 和 .cif 生成过程）
     
-* 单独提取 非规则全息图 正/负畴边沿 封闭曲线，并给出 连成封闭曲线 的 正/逆时针顺序坐标
+* 提取 非规则全息图 正/负畴边沿 封闭曲线、每条曲线 正/逆时针顺序坐标
     * ![fig](https://gitee.com/ChenZhu-Xie/generate.cif/raw/master/img/l=1.png "提取 多边形阵列 对应的 封闭曲线阵列")
 * 在一片 3 英寸晶圆上 批量定制 12 块 1D,2D PPLN
     * ![fig](https://gitee.com/ChenZhu-Xie/generate.cif/raw/master/img/cover2.png "直接生成 晶圆级『12 个不同的 1、2 维 PPLN 阵列』的 .cif 文件")
