@@ -8,6 +8,8 @@
     * 全自动、批量化、自定义 设计电极图案
     * 将图案 “翻译为” 坐标点，并生成 .cif
     * 最终用于 在材料表面 光刻
+    * (属于模型 ⊊) 👉 [NLAST-scalar 模型](https://gitee.com/ChenZhu-Xie/NLAST)
+* English「README」ⓔ 👉 [generate.cif](https://github.com/ChenZhu-Xie/generate.cif)
 
 ## 介绍
 * 用途：生成 全息图 (PPLN 等) → .cif 文件
