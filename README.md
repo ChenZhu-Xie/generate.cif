@@ -8,8 +8,8 @@
     * Translate the pattern into coordinate points and generate .cif
     * eventually for photolithography on material surfaces
 * This project 👉 [generate.cif](https://github.com/ChenZhu-Xie/generate.cif)
-    * Subseq model ⊊|∩ 👉 [NLAST-scalar 模型](https://gitee.com/ChenZhu-Xie/NLAST)
-    * Contains tech ⊃ 👉 [Python](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/04__2.2__Courses_Engineering/6__8.2__Python_Self-study__4.0_year.xlsm)
+    * Subseq model ⊊|∩|⊶ 👉 [NLAST-scalar 模型](https://gitee.com/ChenZhu-Xie/NLAST)
+    * Contains tech ⊷ 👉 [Python](https://github.com/ChenZhu-Xie/undergraduate_courses/tree/master/04__2.2__Courses_Engineering/6__8.2__Python_Self-study__4.0_year.xlsm)
         * Comes from career ⊊ 👉 [undergraduate courses](https://github.com/ChenZhu-Xie/undergraduate_courses)
 * 中文「自述文档」㊥ 👉 [generate.cif](https://gitee.com/ChenZhu-Xie/generate.cif)
 
