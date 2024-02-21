@@ -7,7 +7,7 @@
     * Automatic, Batch, Custom designs of electrode patterns
     * Translate the pattern into coordinate points and generate .cif
     * eventually for photolithography on material surfaces
-    * (Subseq model ⊊) 👉 [NLAST-scalar 模型](https://gitee.com/ChenZhu-Xie/NLAST)
+    * (Subseq model ⊊) ∩ 👉 [NLAST-scalar 模型](https://gitee.com/ChenZhu-Xie/NLAST)
 * 中文「自述文档」㊥ 👉 [generate.cif](https://gitee.com/ChenZhu-Xie/generate.cif)
 
 ## Description
